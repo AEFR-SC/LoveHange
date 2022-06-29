@@ -27,7 +27,6 @@ if __name__ == '__main__':
         for every_ in f:
             e = every_.split(" ")
             list_of_processes.append(e[0])
-        print(list_of_processes)
         for will_be_killed_process in list_of_processes:
             command = "taskkill /F /IM "+will_be_killed_process
             os.system(command)
