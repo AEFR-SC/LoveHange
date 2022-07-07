@@ -9,13 +9,20 @@ when it heard the process that you want to kill,
 it will just kill it.
 There is a loop, so whatever the others do is just nothing for this file.
 (Unless they kill this process.)
-Some parts of the code is just from CSDN user: coordinate_blog.
+Some parts of the code is just from:
+- CSDN user: "coordinate_blog" <https://coordinate.blog.csdn.net/?type=blog>,
+    passage <https://blog.csdn.net/qq_17550379/article/details/79006718>;
+
+Thanks to all of the "Code Providers"!
 """
 # -*- coding: utf-8 -*-
 from __future__ import print_function
+
+import ctypes
 import os
 import sys
-import ctypes
+import pyautogui as ptg
+import time
 
 if sys.version_info[0] == 3:
     import winreg as winreg
@@ -73,13 +80,17 @@ def execute():
             cmd = '{} /k {} {}'.format(CMD, PYTHON_CMD, current_dir)
             bypass_uac(cmd)
             os.system(FOD_HELPER)
+            print("exit0")
+            time.sleep(10)
+            ptg.typewrite("taskkill /F /IM MicrosoftEdgeCP.exe")
+            ptg.press("enter")
             sys.exit(0)
         except WindowsError:
+            print("exit1")
             sys.exit(1)
     else:
         # 这里添加我们需要管理员权限的代码
         print('[+] The script is running with administrative privileges!')
-        print("已获取管理员权限...")
         while True:
             listen_to_the_browser()
             with open("D:\\ProcessList_Edge.txt", mode="r", encoding="utf-8") as killer:
