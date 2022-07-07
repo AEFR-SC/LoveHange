@@ -9,18 +9,9 @@ when it heard the process that you want to kill,
 it will just kill it.
 There is a loop, so whatever the others do is just nothing for this file.
 (Unless they kill this process.)
+Some parts of the code is just from CSDN user: coordinate_blog.
 """
-from __future__ import print_function
-import ctypes
-import sys
-import os
-
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan  8 09:09:51 2018
-
-@author: coordinate
-"""
 from __future__ import print_function
 import os
 import sys
