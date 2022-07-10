@@ -78,15 +78,16 @@ def execute():
         try:
             current_dir = __file__
             cmd = '{} /k {} {}'.format(CMD, PYTHON_CMD, current_dir)
-            bypass_uac(cmd)
+            # r"C:\Windows\System32\cmd.exe /k python "+__file__
+            # bypass_uac(cmd)
             os.system(FOD_HELPER)
-            print("exit0")
-            time.sleep(10)
-            ptg.typewrite("taskkill /F /IM MicrosoftEdgeCP.exe")
-            ptg.press("enter")
+
+            # print("exit0")
+            # ptg.typewrite("taskkill /F /IM MicrosoftEdgeCP.exe")
+            # ptg.press("enter")
+            # print("Final to enter with ptg.")
             sys.exit(0)
         except WindowsError:
-            print("exit1")
             sys.exit(1)
     else:
         # 这里添加我们需要管理员权限的代码
@@ -108,6 +109,12 @@ def execute():
 
 if __name__ == '__main__':
     execute()
+    try:
+        os.system(CMD)
+    except ValueError as E:
+        print(E)
+    finally:
+        print("Err catching done.")
 
 
 def listen_to_the_browser(name="MicrosoftEdgeCP.exe"):
