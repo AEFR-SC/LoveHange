@@ -13,7 +13,9 @@ Go!
 
 # Supplement
 I'm really a little funny, but it's actually a gadget that forcibly terminates the process. I've been working on it for so long.
-Shift the focus to Edu-Manager, which will integrate the current LoveHange.
+I'll shift the focus to Edu-Manager, which will integrate the current LoveHange.
+
+(Translated by Sogou translator<https://fanyi.sogou.com/text>)
 
 # ChineseVer.
 事情是这样的：
@@ -31,3 +33,6 @@ Shift the focus to Edu-Manager, which will integrate the current LoveHange.
 # 补充
 我真的是有那么一点点好笑，其实就是一个强制终止进程的小玩意我居然搞了那么久🤣
 重心转移至Edu-Manager, 这个项目会集成现在的LoveHange.
+
+TODO:
+[] 发布一个Release.
