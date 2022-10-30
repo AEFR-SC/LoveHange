@@ -1,7 +1,7 @@
 # LoveHange
 Here's the thing:
-I am a member of the audio-visual education committee. In principle, other students can't touch the audio-visual equipment of our class without my permission, but! Yes!
-There is a big boss in our class, called Brother Han. The old gentleman didn't listen to my greeting. Originally, physical education class rushed to the classroom to play some cartoons and calligraphy when he was free to move (because I like playing ball games downstairs and so on, it has an opportunity). Because of his impatience, I, in line with the concept of "putting harmony first", would fight back my anger and persuade him to turn it off every time I came upstairs.
+I am a member of the audio-visual education committee. In principle, other students can't touch the audio-visual equipment of our class without my permission, but! 
+There is a big boss in our class, called Brother Han. The old "gentleman" didn't listen to my greeting. Originally, physical education class rushed to the classroom to play some cartoons and calligraphy when he was free to move (because I like playing ball games downstairs and so on, it has an opportunity). Because of his impatience, I, in line with the concept of "putting harmony first", would fight back my anger and persuade him to turn it off every time I came upstairs.
 However, it may be because it thinks I am easy to talk to and lax in management. Now it has gradually developed into a longer class break, ignoring my existence directly and starting to play videos.
 It's just time to take the junior high school exam. It's useless to say more. Let him feel the charm of information technology.
 
